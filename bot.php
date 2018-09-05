@@ -1,4 +1,5 @@
-<?php$access_token = 'c6967c80e6cbd0a78cae5c1f5167074e';
+<?php
+$access_token = 'LLku30nId/gX24KFEtlfxhdkobBirkG3rakCkurDhX2AGbZBtSB68HoEbvT9nqNpF8UCbQrYFx9WoIyyeLIOac6z0Q44ra2WcamS8R045DjNax4c2PbHZczAslMhbCPAUvkIp13UKo3XkMIfbeoMOQdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -28,3 +29,4 @@ if (!is_null($events['events'])) {
 $result = curl_exec($ch);			
       curl_close($ch);			
       echo $result . "";		}	}}echo "OK";
+?>
